@@ -2,9 +2,27 @@
 
 var numeroUsuario1 = 28
 var numeroUsuario2 = 46
+var operação = "+"
+var resultado = 0
 
-console.log(numeroUsuario)
-
-if(numeroUsuario1 + numeroUsuario2){
-    print("resultado:" resultado)
+if ( operação == "+"){
+    console.log("voce escolheu + ")
+    resultado(numeroUsuario1 + numeroUsuario2)
 }
+
+if( operação == "-"){
+    console.log=("voce escolheu -")
+    resultado(numeroUsuario1 - numeroUsuario2)
+}
+
+if( operação == "*"){
+    console.log=("voce escolheu *")
+    resultado(numeroUsuario1 * numeroUsuario2)
+}
+
+if( operação == "/"){
+    console.log=("voce escolheu /")
+    resultado(numeroUsuario1 / numeroUsuario2)
+}
+
+ console.log(resultado)
